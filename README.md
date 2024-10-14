@@ -10,7 +10,14 @@ Ini adalah website portofolio pribadi saya yang menampilkan latar belakang, kete
 - **Halaman Kontak (Contact)**: Formulir kontak sederhana untuk pengunjung yang ingin menghubungi saya.
 - **Footer**: Informasi kontak, tautan ke profil media sosial, dan hak cipta.
 
-## Cara Menjalankan Proyek
-1. **Clone Repositori**:
-   ```bash
-   git clone https://github.com/hanageofanii/hana-portofolio.git
+# Cara Menjalankan Proyek
+## Buka terminal
+## Arahkan ke folder yang diinginkan
+cd C:\laragon\www
+
+## Clone repositori
+git clone https://github.com/hanageofanii/hana-portofolio.git
+
+## Masuk ke folder repositori
+cd hana-portofolio
+

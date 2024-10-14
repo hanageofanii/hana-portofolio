@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Hana Geofani - Full Stack Data Analyst and Software Engineering.
+    </title>
+    <meta
+      name="title"
+      content="Hana Geofani - Full Stack Data Analyst and Software Engineering" />
+    <meta
+      name="description"
+      content="This is a personal portfolio html template made by hanageofani" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Preload Images -->
+    <link rel="preload" as="image" href="images/hero-banner.jpg" />
+    <link rel="preload" as="image" href="images/Blog.svg" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- Header -->
+      <header class="header" data-header>
+        <div class="container">
+          <a href="index.html" class="logo"><b>hanageofani</b></a>
+          <nav class="navbar" data-navbar>
+            <div class="navbar-top">
+              <button
+                class="nav-close-btn"
+                aria-label="close menu"
+                data-nav-toggler>
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+            <ul class="navbar-list">
+              <li><a href="index.html" class="navbar-link">Home</a></li>
+              <li><a href="about.html" class="navbar-link">About</a></li>
+              <li><a href="projects.html" class="navbar-link">Project</a></li>
+              <li><a href="contact.html" class="navbar-link">Contact</a></li>
+            </ul>
+            <div class="navbar-bottom">
+              <div class="wrapper">
+                <a
+                  href="mailto:hanasucianindageofani@gmail.com"
+                  class="contact-link"
+                  >hanasucianindageofani@gmail.com</a
+                >
+                <a href="tel:081314840926" class="contact-link"
+                  >+62 813-1484-0926</a
+                >
+              </div>
+              <ul class="social-list">
+                <li>
+                  <a href="https://x.com/aniinda_" class="social-link"
+                    ><ion-icon name="logo-twitter"></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/hannasuccii.aniindaa/?locale=id_ID"
+                    class="social-link"
+                    ><ion-icon name="logo-facebook"></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://dribbble.com/hanageofani/"
+                    class="social-link"
+                    ><ion-icon name="logo-dribbble"></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/hanageofani"
+                    class="social-link"
+                    ><ion-icon name="logo-instagram"></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/@hanasucianindageofani7690"
+                    class="social-link"
+                    ><ion-icon name="logo-youtube"></ion-icon
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+          <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+      </header>
+
+      <main>
+        <article>
+          <section
+            class="section contact"
+            aria-labelledby="contact"
+            id="contact">
+            <div class="container">
+              <div class="contact-card">
+                <div class="contact-content" data-reveal="left">
+                  <div class="card-icon">
+                    <img
+                      src="images/icon-5.svg"
+                      width="44"
+                      height="44"
+                      loading="lazy"
+                      alt="envelop icon" />
+                  </div>
+                  <h2 class="h2 section-title">
+                    If you like what you see, let's work together.
+                  </h2>
+                  <p class="section-text">
+                    I bring rapid solutions to make the life of my clients
+                    easier. Have any questions? Reach out to me from this
+                    contact form and I will get back to you shortly.
+                  </p>
+                </div>
+                <form
+                  id="myForm"
+                  action="https://formspree.io/f/xoqgaqez"
+                  method="POST"
+                  enctype="multipart/form-data">
+                  <div class="input-wrapper">
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Name *"
+                      required
+                      class="input-field" />
+                    <input
+                      type="email"
+                      name="email_address"
+                      placeholder="Email *"
+                      required
+                      class="input-field" />
+                  </div>
+                  <textarea
+                    name="message"
+                    placeholder="Message *"
+                    required
+                    class="input-field"></textarea>
+                  <button type="submit" class="btn btn-secondary">
+                    Send message
+                  </button>
+                  <div id="messageSent" style="display: none">
+                    <p>Message sent successfully!</p>
+                    <p>
+                      Thank you for reaching out. We will get back to you soon.
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </article>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <p class="copyright">© 2024 copyright. All rights reserved.</p>
+          <ul class="social-list">
+            <li>
+              <a href="https://x.com/aniinda_" class="social-link"
+                ><ion-icon name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/hannasuccii.aniindaa/?locale=id_ID"
+                class="social-link"
+                ><ion-icon name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="https://dribbble.com/hanageofani/" class="social-link"
+                ><ion-icon name="logo-dribbble"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/hanageofani"
+                class="social-link"
+                ><ion-icon name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/@hanasucianindageofani7690"
+                class="social-link"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                href="mailto:hanasucianindageofani@gmail.com"
+                class="social-link"
+                ><ion-icon name="mail"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+
+    <!-- Ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

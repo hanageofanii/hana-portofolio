@@ -1,4 +1,4 @@
-# Laporan Proyek: Hana Portofolio
+# Hana's Portofolio
 
 ## Deskripsi
 Ini adalah website portofolio pribadi saya yang menampilkan latar belakang, keterampilan, dan proyek-proyek yang telah saya kerjakan. Website ini berisi beberapa halaman yang mudah dinavigasi.

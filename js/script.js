@@ -1,4 +1,5 @@
 "use strict";
+
 /**
  * add event listener on multiple elements
  */
@@ -39,6 +40,7 @@ window.addEventListener("scroll", function () {
     header.classList.remove("active");
   }
 });
+
 /**
  * SCROLL REVEAL
  */

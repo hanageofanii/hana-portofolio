@@ -1,7 +1,7 @@
 :root {
   /**
-          * colors
-          */
+   * colors
+   */
 
   --white: rgb(236, 255, 255);
   --white_a8: hsla(0, 0%, 100%, 0.08);
@@ -18,8 +18,8 @@
   --charcoal: hsla(219, 22%, 26%, 1);
 
   /**
-          * typography
-          */
+   * typography
+   */
 
   --ff-manrope: "Manrope", sans-serif;
 
@@ -35,21 +35,21 @@
   --fw-700: 700;
 
   /**
-          * spacing
-          */
+   * spacing
+   */
 
   --section-padding: 90px;
 
   /**
-          * box shadow
-          */
+   * box shadow
+   */
 
   --shadow-1: 0 0 20px hsla(216, 14%, 14%, 0.05);
   --shadow-2: 0 4px 28px hsla(216, 14%, 14%, 0.07);
 
   /**
-          * border radius
-          */
+   * border radius
+   */
 
   --radius-circle: 50%;
   --radius-pill: 100px;
@@ -57,8 +57,8 @@
   --radius-6: 6px;
 
   /**
-          * transition
-          */
+   * transition
+   */
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease;
@@ -66,8 +66,8 @@
 }
 
 /*-----------------------------------*\
-          #RESET
-      \*-----------------------------------*/
+  #RESET
+\*-----------------------------------*/
 
 *,
 *::before,
@@ -153,8 +153,8 @@ body.nav-active {
 }
 
 /*-----------------------------------*\
-          #REUSED STYLE
-      \*-----------------------------------*/
+  #REUSED STYLE
+\*-----------------------------------*/
 
 .container {
   padding-inline: 16px;
@@ -188,7 +188,7 @@ body.nav-active {
 .h3,
 .h4 {
   color: var(--charcoal);
-  line-height: 70px;
+  line-height: 1.3;
 }
 
 .h1 {
@@ -230,11 +230,11 @@ body.nav-active {
 }
 
 .section-text {
-  font-size: var(--fs-6);
+  font-size: var(--fs-5);
 }
 
 .section-title {
-  margin-block-end: 100px;
+  margin-block-end: 16px;
 }
 
 .grid-list {
@@ -243,7 +243,7 @@ body.nav-active {
 }
 
 [data-reveal] {
-  opacity: 10;
+  opacity: 0;
   transition: 0.75s ease;
 }
 
@@ -269,8 +269,8 @@ body.nav-active {
 }
 
 /*-----------------------------------*\
-          #HEADER
-      \*-----------------------------------*/
+  #HEADER
+\*-----------------------------------*/
 
 .header {
   position: absolute;
@@ -390,8 +390,8 @@ body.nav-active {
 }
 
 /*-----------------------------------*\
-          #HERO
-      \*-----------------------------------*/
+  #HERO
+\*-----------------------------------*/
 
 .hero {
   padding-block-start: calc(var(--section-padding) + 50px);
@@ -444,13 +444,13 @@ body.nav-active {
 }
 
 /*-----------------------------------*\
-          #ABOUT
-      \*-----------------------------------*/
+  #ABOUT
+\*-----------------------------------*/
 
 .about .wrapper {
   display: grid;
   gap: 50px;
-  margin-block-end: 120px;
+  margin-block-end: 70px;
 }
 
 .progress-list .label-wrapper {
@@ -486,19 +486,19 @@ body.nav-active {
 }
 
 .about-card .card-title {
-  margin-block: 20px 20px;
+  margin-block: 16px 10px;
 }
 
 /*-----------------------------------*\
-          #PROJECTS
-      \*-----------------------------------*/
+  #PROJECTS
+\*-----------------------------------*/
 
 .project {
   border-block: 1px solid var(--cadet-blue-crayola_a20);
 }
 
 .project .title-wrapper {
-  margin-block-end: 50px;
+  margin-block-end: 40px;
 }
 
 .project .btn {
@@ -560,8 +560,8 @@ body.nav-active {
 }
 
 /*-----------------------------------*\
-          #CONTACT
-      \*-----------------------------------*/
+  #CONTACT
+\*-----------------------------------*/
 
 .contact {
   padding-block-end: 0;
@@ -576,7 +576,7 @@ body.nav-active {
 }
 
 .contact .section-title {
-  margin-block-start: 120px;
+  margin-block-start: 20px;
 }
 
 .input-field {
@@ -601,8 +601,8 @@ textarea.input-field {
 }
 
 /*-----------------------------------*\
-          #FOOTER
-      \*-----------------------------------*/
+  #FOOTER
+\*-----------------------------------*/
 
 .footer {
   padding-block: 40px;
@@ -617,17 +617,17 @@ textarea.input-field {
 }
 
 /*-----------------------------------*\
-          #MEDIA QUERIES
-      \*-----------------------------------*/
+  #MEDIA QUERIES
+\*-----------------------------------*/
 
 /**
-      * responsive for large than 575px screen
-      */
+ * responsive for large than 575px screen
+ */
 
 @media (min-width: 575px) {
   /**
-          * REUSED STYLE
-          */
+   * REUSED STYLE
+   */
 
   .container {
     max-width: 540px;
@@ -636,16 +636,16 @@ textarea.input-field {
   }
 
   /**
-          * PROJECT
-          */
+   * PROJECT
+   */
 
   .project-card {
     --padding: 68px;
   }
 
   /**
-          * CONTACT
-          */
+   * CONTACT
+   */
 
   .contact-card {
     padding: 68px;
@@ -653,39 +653,39 @@ textarea.input-field {
 }
 
 /**
-      * responsive for large than 768px screen
-      */
+ * responsive for large than 768px screen
+ */
 
 @media (min-width: 768px) {
   /**
-          * REUSED STYLE
-          */
+   * REUSED STYLE
+   */
 
   .container {
     max-width: 720px;
   }
 
   .section-text {
-    --fs-5: 3rem;
+    --fs-5: 2rem;
   }
 
   /**
-          * ABOUT
-          */
+   * ABOUT
+   */
 
   .about .grid-list {
     grid-template-columns: 1fr 1fr;
   }
 
   /**
-          * PROJECT
-          */
+   * PROJECT
+   */
 
   .project .title-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
   }
 
   .project .btn {
@@ -693,22 +693,22 @@ textarea.input-field {
   }
 
   /**
-          * CONTACT
-          */
+   * CONTACT
+   */
 
   .contact .section-text {
-    --fs-5: 2.5rem;
+    --fs-5: 1.8rem;
   }
 
   .input-wrapper {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
   }
 
   /**
-          * FOOTER
-          */
+   * FOOTER
+   */
 
   .footer .container {
     display: flex;
@@ -722,33 +722,33 @@ textarea.input-field {
 }
 
 /**
-      * responsive for large than 992px screen
-      */
+ * responsive for large than 992px screen
+ */
 
 @media (min-width: 992px) {
   /**
-          * CUSTOM PROPERTY
-          */
+   * CUSTOM PROPERTY
+   */
 
   :root {
     /**
-          * spacing
-          */
+     * spacing
+     */
 
     --section-padding: 120px;
   }
 
   /**
-          * REUSED STYLE
-          */
+   * REUSED STYLE
+   */
 
   .container {
-    max-width: 1000px;
+    max-width: 960px;
   }
 
   /**
-          * HEADER
-          */
+   * HEADER
+   */
 
   .nav-open-btn,
   .navbar-top,
@@ -801,8 +801,8 @@ textarea.input-field {
   }
 
   /**
-          * HERO
-          */
+   * HERO
+   */
 
   .hero {
     padding-block-start: calc(var(--section-padding) + 80px);
@@ -823,8 +823,8 @@ textarea.input-field {
   }
 
   /**
-          * ABOUT
-          */
+   * ABOUT
+   */
 
   .about .wrapper {
     grid-template-columns: 1fr 1fr;
@@ -836,8 +836,8 @@ textarea.input-field {
   }
 
   /**
-          * PROJECT
-          */
+   * PROJECT
+   */
 
   .project .grid-list {
     grid-template-columns: 1fr 1fr;
@@ -871,8 +871,8 @@ textarea.input-field {
   }
 
   /**
-          * CONTACT
-          */
+   * CONTACT
+   */
 
   .contact-card {
     grid-template-columns: 0.8fr 1fr;
@@ -882,13 +882,13 @@ textarea.input-field {
 }
 
 /**
-      * responsive for large than 1200px screen
-      */
+ * responsive for large than 1200px screen
+ */
 
 @media (min-width: 1200px) {
   /**
-          * REUSED STYLE
-          */
+   * REUSED STYLE
+   */
 
   .container,
   .header {
@@ -896,56 +896,70 @@ textarea.input-field {
   }
 
   /**
-          * ABOUT
-          */
+   * ABOUT
+   */
 
   .about .grid-list {
     gap: 50px;
   }
 
-  .education {
-    margin: 2rem 0;
-  }
-
-  .grid-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1.5rem;
-  }
-
-  .education-card {
-    background-color: #f9f9f9;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-
-  .card-title {
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-  }
-
-  .card-text {
-    color: #666;
-  }
-
   /**
-          * CONTACT
-          */
+   * CONTACT
+   */
 
   .contact-card {
     gap: 150px;
   }
 }
 
+/* Section Blog */
+.section.blog {
+  overflow-x: auto; /* Membuat area scroll horizontal */
+  padding-bottom: 20px; /* Memberikan ruang di bawah untuk tampilan yang lebih baik */
+
+  /* Menggunakan flexbox untuk membuat grid yang bisa digeser */
+  display: flex;
+  flex-wrap: nowrap; /* Mencegah pemutaran ke baris baru */
+}
+
+/* Setiap posting blog */
+/* CSS */
+.blog-posts {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* Menentukan jumlah kolom dan lebar minimum maksimum */
+  grid-gap: 20px; /* Jarak antar posting */
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc; /* Contoh border */
+  padding: 10px;
+}
+
+.blog-post a.btn {
+  margin-top: auto; /* Geser tombol ke bagian bawah */
+  width: fit-content; /* Sesuaikan lebar dengan isi */
+  align-self: flex-end; /* Geser tombol ke tengah */
+}
+
+.blog-image {
+  width: 100%; /* Lebar gambar 100% dari container */
+  height: auto; /* Ketinggian otomatis sesuai aspek rasio gambar */
+  object-fit: cover; /* Mengisi area gambar sesuai proporsi aspek rasio */
+}
+
 /**
-      * responsive for large than 1400px screen
-      */
+ * responsive for large than 1400px screen
+ */
 
 @media (min-width: 1400px) {
   /**
-          * REUSED STYLE
-          */
+   * REUSED STYLE
+   */
 
   .container,
   .header {
@@ -953,20 +967,20 @@ textarea.input-field {
   }
 
   /**
-          * HERO
-          */
+   * HERO
+   */
 
   .hero .container {
     grid-template-columns: 1fr 0.8fr;
   }
 
   .hero .section-text {
-    --fs-5: 3.5rem;
+    --fs-5: 2.4rem;
   }
 
   /**
-          * ABOUT
-          */
+   * ABOUT
+   */
 
   .about .wrapper {
     gap: 100px;
